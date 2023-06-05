@@ -16,7 +16,6 @@ module.exports = {
   entry: "./src/client.ts",
   module: {
     rules: [
-      // Images: Copy image files to build folder
       {
         test: /\.(?:ico|gif|png|jpg|jpeg|webp|woff(2)?|eot|ttf|otf|svg|)$/i,
         type: "asset/resource",
